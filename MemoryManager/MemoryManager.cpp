@@ -139,7 +139,7 @@ int MemoryManager::dumpMemoryMap(char* filename){
 
     delete [] listEntryPoint;
 
-    int file_descriptor = open(filename, O_WRONLY | O_CREAT | S_IRWXU | S_IWUSR);
+    int file_descriptor = open(filename, O_WRONLY | O_CREAT, S_IRUSR | S_IWUSR);
 
     if(file_descriptor == -1) {
         // print which type of error have in a code
