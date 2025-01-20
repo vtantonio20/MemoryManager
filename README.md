@@ -13,5 +13,6 @@ To buuild do:
   valgrind --leak-check=yes ./clt      or       ./clt
 
 
-explanation of code:
+explanation of code (warning project was limited to a 5 min explanation of all code, so it goes very fast!):
+
 https://youtu.be/2Zp3JVMw57M?si=3UEPRCRZuhdtJyEr
